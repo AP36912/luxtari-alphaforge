@@ -1,0 +1,20 @@
+# Stage 3 minimum offline research + unit-test dependencies.
+# STATUS: APPROVED and installed into local .venv (Stage 3).
+# Do NOT use the unpinned root requirements.txt for Stage 3 install.
+# Location: create isolated venv at .venv/ under this candidate only.
+#
+# Install (only after explicit operator approval):
+#   python3 -m venv .venv
+# #   .venv/bin/pip install -r requirements-stage3.min.txt
+#
+# Excluded from Stage 3 min set (do not install now):
+#   httpx, python-dotenv, pyarrow, lightgbm, xgboost, torch
+#   OpenBB, MetaTrader5, yfinance, any live broker SDK
+
+numpy==1.26.4
+pandas==2.2.3
+PyYAML==6.0.2
+pytest==9.0.3
+scikit-learn==1.5.2
+joblib==1.4.2
+matplotlib==3.9.2

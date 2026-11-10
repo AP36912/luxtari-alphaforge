@@ -1,0 +1,17 @@
+# Public minimal experiment — synthetic fixture path
+metadata:
+  name: minimal_public_experiment
+  asset: SYNTH
+data:
+  path: tests/fixtures/sample_ohlcv_experiment.csv
+features:
+  discovery_enabled: false
+  price_enabled: true
+  technical_enabled: true
+  statistical_enabled: true
+  microstructure_enabled: true
+labeling:
+  mode: triple_barrier
+execution:
+  execution_mode: paper
+  use_execution_gateway: false

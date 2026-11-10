@@ -1,0 +1,33 @@
+Luxtari AlphaForge
+Copyright 2026 Luxtari AlphaForge Contributors
+
+Formerly developed under the working title "Quant AI Public Edition" during
+private candidate hardening. This distribution provides offline quantitative
+research, backtesting, and paper/simulated execution. It excludes proprietary
+strategies, broker credentials, live adapters, and vendor datasets.
+
+Stage 4D locked dependencies and licenses (from installed package METADATA):
+- PyYAML 6.0.2 — MIT
+- contourpy 1.3.3 — BSD
+- cycler 0.12.1 — BSD
+- fonttools 4.68.0 — MIT
+- iniconfig 2.3.1 — MIT
+- joblib 1.4.2 — BSD
+- kiwisolver 1.5.1 — BSD
+- Matplotlib 3.9.2 — PSF-based Matplotlib license
+- NumPy 1.26.4 — BSD
+- packaging 26.3 — Apache-2.0 OR BSD-2-Clause
+- pandas 2.2.3 — BSD
+- Pillow 13.0.0 — MIT-CMU
+- pluggy 1.7.0 — MIT
+- Pygments 2.21.0 — BSD-2-Clause
+- pyparsing 3.3.3 — MIT
+- pytest 9.0.3 — MIT
+- python-dateutil 4.0.0 — BSD-3-Clause
+- pytz 2026.6 — MIT
+- scikit-learn 1.5.2 — BSD
+- SciPy 1.17.1 — BSD
+- threadpoolctl 3.8.0 — BSD-3-Clause
+- tzdata 2026.6 — Apache-2.0
+
+No dependency source or wheel is bundled in this repository.

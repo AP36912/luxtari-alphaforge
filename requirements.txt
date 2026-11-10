@@ -1,0 +1,2 @@
+# Core public offline environment. Exact direct pins live here:
+-r requirements-stage3.min.txt

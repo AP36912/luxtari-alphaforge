@@ -1,0 +1,40 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+.venv/
+venv/
+
+# Data and outputs (keep structure, ignore heavy artifacts)
+data/raw/**
+!data/raw/.gitkeep
+data/processed/**
+!data/processed/.gitkeep
+outputs/**
+!outputs/.gitkeep
+!notebooks/.gitkeep
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.idea/
+.vscode/
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local export / checksum evidence (never auto-stage)
+EXPORT_FILE_INVENTORY.txt
+EXPORT_MANIFEST.txt
+SHA256SUMS

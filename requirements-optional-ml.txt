@@ -1,0 +1,5 @@
+# Optional heavy ML/data dependencies; not installed or required by Stage 3.5.
+pyarrow>=14.0.0
+lightgbm>=4.0.0
+xgboost>=2.0.0
+torch>=2.0.0

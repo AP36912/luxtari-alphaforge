@@ -1,0 +1,3 @@
+# Optional market-data ingestion dependencies are intentionally not pinned
+# for the public candidate. Prefer synthetic fixtures. If you add providers,
+# document licenses and API-key handling outside the repository.
